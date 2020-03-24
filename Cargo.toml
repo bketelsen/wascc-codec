@@ -1,6 +1,6 @@
 [package]
 name = "wascc-codec"
-version = "0.5.1"
+version = "0.5.2"
 authors = ["Kevin Hoffman <alothien@gmail.com>"]
 edition = "2018"
 description = "Encoding and decoding primitives for waSCC (WebAssembly Secure Capabilities Connector)"
