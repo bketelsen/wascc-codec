@@ -20,6 +20,7 @@
 
 #[macro_use]
 extern crate serde_derive;
+extern crate log;
 
 extern crate rmp_serde as rmps;
 use rmps::{Deserializer, Serializer};
@@ -53,3 +54,4 @@ pub mod extras;
 pub mod http;
 pub mod keyvalue;
 pub mod messaging;
+pub mod logging;
