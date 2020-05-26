@@ -12,7 +12,7 @@ pub const OP_PERFORM_REQUEST: &str = "PerformRequest";
 pub const OP_HANDLE_REQUEST: &str = "HandleRequest";
 
 /// Describes an HTTP request
-#[derive(Debug, PartialEq, Deserialize, Serialize)]
+#[derive(Debug, PartialEq, Deserialize, Serialize, Default)]
 #[serde(rename_all = "camelCase")]
 pub struct Request {
     /// The HTTP method (e.g. GET, PUT, DELETE)
