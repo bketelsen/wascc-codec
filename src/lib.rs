@@ -20,6 +20,8 @@
 
 /// The version of the codec as seen on crates.io
 pub const VERSION: &str = env!("CARGO_PKG_VERSION");
+/// The string used for the originator of messages dispatched by the host runtime
+pub const SYSTEM_ACTOR: &str = "system";
 
 #[macro_use]
 extern crate serde_derive;
